@@ -29,7 +29,8 @@ function addData() {
 }
 
 function removeAdmin() {
-  
+  arr = arr.filter(person => person.profession !== "admin");
+  console.log(arr);
 }
 
 function concatenateArray() {
