@@ -23,7 +23,9 @@ function PrintDeveloperbyForEach() {
 }
 
 function addData() {
-  
+  const newData = {id:4,name:"susan",age:"20",profession:"intern"};
+  arr.push(newData);
+  console.log(arr);
 }
 
 function removeAdmin() {
