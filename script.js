@@ -34,8 +34,11 @@ function removeAdmin() {
 }
 
 function concatenateArray() {
-  
+  let newArr = [
+    { id: 5, name: "krishna", age: "21", profession: "manager" },
+    { id: 6, name: "yash", age: "20", profession: "developer" },
   ];
 
-  
+  let combinedArray = arr.concat(newArr);
+  console.log(combinedArray);
 }
