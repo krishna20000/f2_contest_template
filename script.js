@@ -7,21 +7,28 @@ let arr = [
 ];
 
 function PrintDeveloperbyMap() {
-  //Write your code here , just console.log
+  arr.map(person => {
+    if (person.profession === "developer") {
+      console.log(person);
+    }
+  });
 }
 
 function PrintDeveloperbyForEach() {
-  //Write your code here , just console.log
+  
 }
 
 function addData() {
-  //Write your code here, just console.log
+  
 }
 
 function removeAdmin() {
-  //Write your code here, just console.log
+  
 }
 
 function concatenateArray() {
-  //Write your code here, just console.log
+  
+  ];
+
+  
 }
