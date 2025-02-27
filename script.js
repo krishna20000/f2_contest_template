@@ -15,7 +15,11 @@ function PrintDeveloperbyMap() {
 }
 
 function PrintDeveloperbyForEach() {
-  
+  arr.forEach(person => {
+    if (person.profession === "developer") {
+      console.log(person);
+    }
+  });
 }
 
 function addData() {
